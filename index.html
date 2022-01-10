@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sohag Hasan</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-size: 3.5vw;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #282828;
+      }
+      h1 {
+        font-weight: 100;
+        font-size: 4vw;
+        text-transform: uppercase;
+      }
+      h1 span {
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1><span>Sohag</span> Hasan</h1> -->
+    <div id="typed-strings">
+      <h1><span>Sohag</span> Hasan</h1>
+      <p>sohag.pro</p>
+    </div>
+    <h1 id="typed"></h1>
+    <script>
+      var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        loop: true,
+        typeSpeed: 70,
+        backDelay: 3000,
+        startDelay: 3000,
+        backSpeed: 40,
+      });
+    </script>
+  </body>
+</html>
